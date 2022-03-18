@@ -1,0 +1,509 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+li,
+a,
+ul {
+  z-index: 1;
+  font-weight: 300;
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  align-items: center;
+}
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+  background-color: rgb(255, 253, 247);
+  z-index: 2;
+}
+ 
+.nav_links li {
+  display: inline-block;
+  position: relative;
+  bottom: 13px;
+  padding: 0px 15px 0px;
+}
+.nav_links li a {
+  text-decoration: none;
+}
+
+header img {
+  top: 15px;
+  position: relative;
+  height: 50px;
+}
+.nav_links li:hover{
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  transform: scale(1.1);
+}
+.form{
+  padding-left: 30em;
+}
+.edmodo{
+  padding-right: 3em;
+}
+
+.main {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 800px;
+  background-color: rgb(255, 253, 247);
+}
+.girls {
+  width: 50%;
+  position: relative;
+  left: 750px;
+}
+.title {
+  font-size: 85px;
+  color: black;
+  position: absolute;
+  left: 110px;
+  top: 120px;
+  width: 100px;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes bounceIn {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes bounceIn {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+.title::before {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  font-weight: 300;
+  content: "your";
+  color: black;
+  position: relative;
+  top: 120px;
+  left: 170px;
+}
+.title::after {
+  font-size: 85px;
+  content: "";
+  position: relative;
+  right: 275px;
+  top: 300px;
+  animation-name: loop;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes loop {
+  0% {
+    content: "HOPES";
+    font-weight: bolder;
+  }
+  14% {
+    content: "GOALS";
+    font-weight: bolder;
+  }
+  28% {
+    content: "FAMILY";
+    font-weight: bolder;
+  }
+  42% {
+    content: "LEVEL";
+    font-weight: bolder;
+  }
+  56% {
+    content: "DREAMS";
+    font-weight: bolder;
+  }
+  70% {
+    content: "LIMITS";
+    font-weight: bolder;
+  }
+  84% {
+    content: "TASKS";
+    font-weight: bolder;
+  }
+  100% {
+    content: "HOPES";
+    font-weight: bolder;
+  }
+}
+.subtitle {
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  position: absolute;
+  width: 500px;
+  top: 600px;
+  left: 120px;
+}
+footer {
+  background: #111;
+  height: auto;
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+  position: relative;
+  left: 10px;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  position: relative;
+  left: 10px;
+}
+.social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0rem 3rem 0rem;
+}
+.social a {
+  text-decoration: none;
+  color: #fff;
+}
+.social a i {
+  font-size: 2.1rem;
+  transition: color 0.4s ease;
+}
+.social li {
+  padding-left: 40px;
+}
+.social a:hover i {
+  color: rgba(31, 104, 224, 1);
+}
+.footer-bottom {
+  background: #111;
+  padding: 20px 0px;
+  text-align: center;
+}
+.ecuador {
+  width: 25px;
+  position: relative;
+  top: 5px;
+  right: 10px;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.boy-student {
+  position: relative;
+  height: 10px;
+  bottom: 100px;
+  left: 700px;
+}
+.certifications{
+  text-align: center;
+  font-size: 4rem;
+width: 100%;
+height: auto;
+}
+.whyreach {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(255, 253, 247);
+}
+
+.hero {
+  display: inline-block;
+  position: relative;
+  width: 400px;
+  left: 60px;
+  bottom: -80px;
+  min-width: 400px;
+  height: 400px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+  margin: 30px;
+}
+
+.hero-profile-img {
+  position: relative;
+  left: 75px;
+  height: 60%;
+}
+
+.hero-description-bk {
+  background-image: linear-gradient(0deg, #ffdb3a, #ee0c39);
+  border-radius: 30px;
+  position: absolute;
+  top: 55%;
+  right: -15px;
+  height: 65%;
+  width: 108%;
+}
+
+.second .hero-description-bk {
+  background-image: linear-gradient(-20deg, #c09487, #4a4de6);
+}
+.third .hero-description-bk {
+  background-image: linear-gradient(-20deg, #f7dbdb, #84d32a);
+}
+.forth .hero-description-bk {
+  background-image: linear-gradient(-20deg, #8796c0, #e73adf);
+}
+.hero-logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 20px;
+  background-color: black;
+  position: absolute;
+  bottom: 20%;
+  left: 30px;
+  overflow: hidden;
+  box-shadow: 1px 1px 30px rgba(19, 19, 19, 0.301);
+}
+
+.hero-logo img {
+  height: 100%;
+}
+
+.hero-description {
+  position: absolute;
+  color: #fff;
+  font-weight: 900;
+  left: 135px;
+  bottom: 17%;
+}
+
+
+
+.hero-date {
+  position: absolute;
+  color: #fff;
+  left: 34px;
+  bottom: 8%;
+}
+/* END CARD DESIGN */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: #eee;
+  min-height: 100vh;
+}
+.btn i:before {
+  width: 14px;
+  height: 14px;
+  position: fixed;
+  color: #fff;
+  background: #0077b5;
+  padding: 10px;
+  border-radius: 50%;
+  top: 5px;
+  right: 5px;
+}
+.cuadrado__grande {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  position: absolute;
+  left: 700px;
+  top: 80px;
+  width: 700px;
+  height: 600px;
+  background-color: rgb(255, 90, 61);
+  box-shadow: 5px 5px 10px rgba(190, 177, 177, 0.7);
+}
+.cuadrado__mediano--amarillo {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(252, 203, 40);
+}
+.cuadrado__mediano--azul {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(126, 121, 252);
+}
+.student {
+  position: absolute;
+  left: 750px;
+  top: 130px;
+  width: 700px;
+  height: 550px;
+  z-index: 1;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.toggle{
+  color:black;
+  background:none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  display:none;
+}
+@media(max-width: 768px) {
+  header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+    background-color: rgb(255, 253, 247);
+    z-index: 2;
+  }
+   
+  .nav_links li {
+    display: inline-block;
+    position: relative;
+    bottom: 13px;
+    padding: 0px 15px 0px;
+  }
+  .nav_links li a {
+    text-decoration: none;
+  }
+  
+  header img {
+    top: 15px;
+    position: relative;
+    height: 50px;
+  }
+  .nav_links li:hover{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    transform: scale(1.1);
+  }
+  .form{
+    padding-left: 30em;
+  }
+  .edmodo{
+    padding-right: 3em;
+  }
+}
