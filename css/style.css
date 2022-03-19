@@ -524,7 +524,7 @@ body {
     font-size:70px;
     content: "";
     position: relative;
-    right: 230px;
+    right: 240px;
     top: 300px;
     animation-name: loop;
     animation-duration: 2s;
@@ -537,6 +537,6 @@ body {
     position: absolute;
     width: 500px;
     top: 550px;
-    left: 35px;
+    left: 30px;
   }
 }
