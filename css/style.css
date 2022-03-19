@@ -64,11 +64,6 @@ header img {
   height: 800px;
   background-color: rgb(255, 253, 247);
 }
-.girls {
-  width: 50%;
-  position: relative;
-  left: 750px;
-}
 .title {
   font-size: 85px;
   color: black;
@@ -505,5 +500,43 @@ body {
   }
   .edmodo{
     padding-right: 3em;
+  }
+
+  .title {
+    font-size: 70px;
+    color: black;
+    position: absolute;
+    left:15px;
+    top: 100px;
+    width: 100px;
+  }
+  .title::before {
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    font-weight: 300;
+    content: "your";
+    color: black;
+    position: relative;
+    top: 125px;
+    left: 150px;
+  }
+  .title::after {
+    font-size:70px;
+    content: "";
+    position: relative;
+    right: 230px;
+    top: 300px;
+    animation-name: loop;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .subtitle {
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    position: absolute;
+    width: 500px;
+    top: 550px;
+    left: 35px;
   }
 }
