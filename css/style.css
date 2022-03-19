@@ -539,4 +539,34 @@ body {
     top: 550px;
     left: 20px;
   }
+  .cuadrado__grande {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    position: absolute;
+    left: 30px;
+    top: 600px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 90, 61);
+    box-shadow: 5px 5px 10px rgba(190, 177, 177, 0.7);
+  }
+  .cuadrado__mediano--amarillo {
+    width:135px;
+    height: 200px;
+    background-color: rgb(252, 203, 40);
+  }
+  .cuadrado__mediano--azul {
+    width: 135px;
+    height: 200px;
+    background-color: rgb(126, 121, 252);
+  }
+  .student {
+    position: absolute;
+    left: 50px;
+    top: 650px;
+    width: 300px;
+    height: 250px;
+    z-index: 1;
+  }
 }
