@@ -506,7 +506,7 @@ body {
     font-size: 60px;
     color: black;
     position: absolute;
-    left:0;
+    left: 10px;
     top: 100px;
     width: 100px;
   }
