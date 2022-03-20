@@ -518,7 +518,7 @@ body {
     color: black;
     position: relative;
     top: 125px;
-    left: 150px;
+    left: 145px;
   }
   .title::after {
     font-size:60px;
@@ -646,6 +646,6 @@ body {
     text-transform: capitalize;
     line-height: 3rem;
     position: relative;
-    left: 5px;
+    left: 0;
   }
 }
