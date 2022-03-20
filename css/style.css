@@ -465,7 +465,7 @@ body {
 }
 @media(max-width: 768px) {
   header {
-    display: flex;
+    display: none;
     position: fixed;
     width: 100%;
     justify-content: space-between;
@@ -503,7 +503,7 @@ body {
   }
 
   .title {
-    font-size: 70px;
+    font-size: 60px;
     color: black;
     position: absolute;
     left:0;
@@ -521,11 +521,11 @@ body {
     left: 150px;
   }
   .title::after {
-    font-size:70px;
+    font-size:60px;
     content: "";
     position: relative;
-    right: 230px;
-    top: 300px;
+    right: 210px;
+    top: 290px;
     animation-name: loop;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -564,9 +564,72 @@ body {
   .student {
     position: absolute;
     left: 70px;
-    top: 650px;
+    top: 659px;
     width: 300px;
-    height: 250px;
+    height: 240px;
     z-index: 1;
+  }
+  .certifications{
+    text-align: center;
+    font-size: 3.1rem;
+  width: 100%;
+  height: auto;
+  padding-top: 1em;
+  }
+  .main {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 800px;
+    min-height: 800px;
+    background-color: rgb(255, 253, 247);
+    overflow: hidden;
+  }
+  .main {
+    position:relative;
+    top: 0px;
+    width: auto;
+    height: 900px;
+    background-color: rgb(255, 253, 247);
+  }
+  .whyreach {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 253, 247);
+    padding-bottom: 3em;
+  }
+  footer {
+    background: #111;
+    height: 500px;
+    padding-top: 40px;
+    color: #fff;
+  }
+  .hero {
+    display: fixed;
+    position: relative;
+    width: 200px;
+    left: 10px;
+    bottom: -20px;
+    min-width: 350px;
+    height: 300px;
+    border-radius: 30px;
+ 
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+  }
+  .hero-description {
+    position: absolute;
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: 900;
+    left: 135px;
+    bottom: 10%;
+  }
+  .hero-date {
+    position: absolute;
+    color: #fff;
+    left: 28px;
+    bottom: 10%;
+    font-size: 0.8rem;
   }
 }
