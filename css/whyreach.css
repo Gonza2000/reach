@@ -422,16 +422,27 @@ bottom: 9em;
   left: 900px;
 }
 @media(max-width: 768px) {
+  header {
+    display: none;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: rgb(253, 253, 253);
+    z-index: 2;
+  }
 .What-wedo {
   position: relative;
   margin-top: 50px;
   top: 70rem;
   width: 100%;
-  height: 900px;
+  height: 1200px;
 }
 .contenedor-chicas {
   position: relative;
-  top: 400px;
+  left: 35px;
+  top: 300px;
   width: 350px;
   height: 350px;
   background-image: url(../css/background.png);
@@ -451,26 +462,25 @@ bottom: 9em;
   position: absolute;
   right: 0;
   top: 50px;
-  width: 250px;
-  height: 200px;
+  width: 370px;
+  height: 300px;
 }
 .whatwedo__title {
   position: relative;
   font-weight: bolder;
-  font-size: 70px;
-  text-align:end;
-  margin-right: 2.3em;
+  font-size:3rem;
+  margin-right: 1.5em;
   margin-bottom: 0.5em;
-bottom: 9em;
+bottom: 7.5em;
 
 }
 .whatwedo__subtitle {
-  width: 400px;
+  width: 300px;
   position: relative;
   font-weight: lighter;
-  font-size: 30px;
-  bottom: 600px;
-  left: 900px;
+  font-size: 20px;
+top: -17em;
+text-align: center;
 }
 .parent {
   width: 300px;
@@ -547,10 +557,10 @@ border-radius: 5px;
   padding-bottom: 2em;
 }
 .div2 {
-  margin-top: 14em;
-  grid-area: 1 / 4 / 3 / 5;
+  margin-top:14em;
   background-color: rgb(255, 244, 94);
- border-radius: 5px;
+ border-radius:5px;
+ box-shadow: 5px 5px 10px rgba(255, 197, 149, 0.7);
 }
 .div2 img {
   position: relative;
@@ -562,25 +572,44 @@ border-radius: 5px;
 .div__lazo2 {
   z-index: 1;
   position: absolute;
-  top: 900px;
-  width: 444px;
-  height: 247px;
-  background-color: rgb(255, 253, 247);
+  top: 660px;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(255, 255, 254);
+  box-shadow: 5px 5px 10px rgba(255, 197, 149, 0.7);
+
 }
 .div2 h2 {
   position: relative;
+  font-size: 1rem;
   color: black;
-  top: 10px;
-  left: 7%;
+  top: 15px;
+  left: 33%;
 }
 .div2 h3 {
   position: relative;
   word-spacing: 1px;
   margin: 30px 30px 30px;
   text-align: justify;
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: lighter;
   color: black;
   left: 0px;
+}
+.Logo-REACH {
+display: none;
+}
+.whatwedo__subtitle {
+  width: 400px;
+  position: relative;
+  font-weight: lighter;
+  font-size: 20px;
+  bottom: 600px;
+  left: 0px;
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 }
