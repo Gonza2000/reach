@@ -220,7 +220,7 @@ h1 {
 .div__lazo2 {
   z-index: 1;
   position: absolute;
-  top: 253px;
+ top: 253px;
   width: 444px;
   height: 247px;
   background-color: rgb(255, 253, 247);
@@ -425,15 +425,15 @@ bottom: 9em;
 .What-wedo {
   position: relative;
   margin-top: 50px;
-  top: 700px;
+  top: 70rem;
   width: 100%;
   height: 900px;
 }
 .contenedor-chicas {
   position: relative;
-  top: 50px;
-  width: 300px;
-  height: 300px;
+  top: 400px;
+  width: 350px;
+  height: 350px;
   background-image: url(../css/background.png);
   clip-path: polygon(
     50% 0%,
@@ -473,8 +473,9 @@ bottom: 9em;
   left: 900px;
 }
 .parent {
-  width: 400px;
-  height: 500px;
+  width: 300px;
+  height: 400px;
+  margin-top: 2.5em;
   margin-bottom: 400px;
   display: flex;
   flex-direction: column;
@@ -492,51 +493,94 @@ bottom: 9em;
 }
 .div4 {
   display: none;
-  grid-area: 1 / 3 / 2 / 4;
-  background-color: rgb(252, 203, 40);
 }
 
 .div5 {
   display: none;
-  grid-area: 2 / 3 / 3 / 4;
-  background-color: rgb(252, 105, 56);
+  
 }
 .div6 {
   display: none;
-  grid-area: 2 / 2 / 3 / 3;
-  background-color: rgb(252, 105, 56);
 }
+
 h1{
   margin-top: 1em;
-
   font-size: 50px;
 }
 .div1 {
-  grid-area: 1 / 1 / 3 / 2;
-  background-color: rgb(94, 129, 255);
-  border-top-left-radius: 2%;
-  border-bottom-left-radius: 2%;
+position: relative;
+margin-bottom: 2em;
+width: 300px;
+border-radius: 5px;
+}
+.div1 img {
+  position: relative;
+  bottom: -5px;
+  width: 260px;
+  height: 200px;
+}
+.div1 h2 {
+  
+  font-size: 1rem;
+  position: relative;
+  color: black;
+  top: 15px;
+  left: 20%;
+}
+.div1 h3 {
+  position: relative;
+  word-spacing: 3px;
+  margin: 30px 30px 30px;
+  text-align: justify;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: black;
+  top:5px;
+  left: 0px;
 }
 .div__lazo1 {
   position: absolute;
-  top: 253px;
+  top: 200px;
   width: 100%;
-  height: 247px;
+  height: 100px;
   background-color: rgb(255, 253, 247);
   padding-bottom: 2em;
 }
 .div2 {
+  margin-top: 14em;
   grid-area: 1 / 4 / 3 / 5;
-  background-color: rgb(94, 129, 255);
-  border-top-right-radius: 2%;
-  border-bottom-right-radius: 2%;
+  background-color: rgb(255, 244, 94);
+ border-radius: 5px;
+}
+.div2 img {
+  position: relative;
+  left: 10px;
+  bottom: -5px;
+  width: 260px;
+  height: 200px;
 }
 .div__lazo2 {
   z-index: 1;
   position: absolute;
-  top: 0px;
+  top: 900px;
   width: 444px;
   height: 247px;
   background-color: rgb(255, 253, 247);
+}
+.div2 h2 {
+  position: relative;
+  color: black;
+  top: 10px;
+  left: 7%;
+}
+.div2 h3 {
+  position: relative;
+  word-spacing: 1px;
+  margin: 30px 30px 30px;
+  text-align: justify;
+  font-size: 15px;
+  font-weight: lighter;
+  color: black;
+  left: 0px;
 }
 }
