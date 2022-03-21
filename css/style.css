@@ -627,7 +627,7 @@ body {
   .hero-date {
     position: absolute;
     color: #fff;
-    left: 28px;
+    left: 24px;
     bottom: 6%;
     font-size: 0.8rem;
   }
@@ -654,8 +654,8 @@ body {
     border-radius: 20px;
     background-color: black;
     position: absolute;
-    bottom: 15.5%;
-    left: 35px;
+    bottom: 14%;
+    left: 30px;
     overflow: hidden;
     box-shadow: 1px 1px 30px rgba(19, 19, 19, 0.301);
   }
