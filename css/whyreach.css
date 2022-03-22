@@ -471,17 +471,19 @@ bottom: 9em;
   font-size:3rem;
   margin-right: 1.4em;
   margin-bottom: 0;
+  left: 0;
 bottom: 7.5em;
 
 }
 .whatwedo__subtitle {
   width: 300px;
   position: relative;
-  left: 14%;
+  margin-left: 3em;
+  left: 0;
   font-weight: lighter;
   font-size: 1.1rem;
 top: -18em;
-text-align: justify;
+text-align:justify;
 }
 .parent {
   width: 300px;
@@ -605,5 +607,14 @@ main {
   width: 100%;
   display: flex;
   justify-content:center;
+}
+footer {
+  position: relative;
+  top: 800px;
+  background: #111;
+  width: auto;
+  height: auto;
+  padding-top: 40px;
+  color: #fff;
 }
 }
