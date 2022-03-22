@@ -441,10 +441,10 @@ bottom: 9em;
 }
 .contenedor-chicas {
   position: relative;
-  left: 35px;
-  top: 300px;
+  left: 30px;
+  top: 270px;
   width: 350px;
-  height: 350px;
+  height: 340px;
   background-image: url(../css/background.png);
   clip-path: polygon(
     50% 0%,
@@ -469,18 +469,19 @@ bottom: 9em;
   position: relative;
   font-weight: bolder;
   font-size:3rem;
-  margin-right: 1.5em;
-  margin-bottom: 0.5em;
+  margin-right: 1.4em;
+  margin-bottom: 0;
 bottom: 7.5em;
 
 }
 .whatwedo__subtitle {
   width: 300px;
   position: relative;
+  left: 14%;
   font-weight: lighter;
-  font-size: 20px;
-top: -17em;
-text-align: center;
+  font-size: 1.1rem;
+top: -18em;
+text-align: justify;
 }
 .parent {
   width: 300px;
@@ -497,9 +498,7 @@ text-align: center;
   grid-row-gap: 0;
 }
 .div3 {
-  display: none;
-  grid-area: 1 / 2 / 2 / 3;
-  background-color: rgb(252, 203, 40);
+  display:none;
 }
 .div4 {
   display: none;
@@ -517,6 +516,7 @@ h1{
   margin-top: 1em;
   font-size: 50px;
 }
+
 .div1 {
 position: relative;
 margin-bottom: 2em;
@@ -530,7 +530,6 @@ border-radius: 5px;
   height: 200px;
 }
 .div1 h2 {
-  
   font-size: 1rem;
   position: relative;
   color: black;
@@ -549,15 +548,16 @@ border-radius: 5px;
   left: 0px;
 }
 .div__lazo1 {
+  overflow: hidden;
   position: absolute;
   top: 200px;
   width: 100%;
-  height: 100px;
+  height: 200px;
   background-color: rgb(255, 253, 247);
   padding-bottom: 2em;
 }
 .div2 {
-  margin-top:14em;
+  margin-top:15em;
   background-color: rgb(255, 244, 94);
  border-radius:5px;
  box-shadow: 5px 5px 10px rgba(255, 197, 149, 0.7);
@@ -570,10 +570,11 @@ border-radius: 5px;
   height: 200px;
 }
 .div__lazo2 {
+  overflow: hidden;
   z-index: 1;
   position: absolute;
   top: 660px;
-  width: 300px;
+  width: 100%;
   height: 200px;
   background-color: rgb(255, 255, 254);
   box-shadow: 5px 5px 10px rgba(255, 197, 149, 0.7);
@@ -599,17 +600,10 @@ border-radius: 5px;
 .Logo-REACH {
 display: none;
 }
-.whatwedo__subtitle {
-  width: 400px;
-  position: relative;
-  font-weight: lighter;
-  font-size: 20px;
-  bottom: 600px;
-  left: 0px;
-}
+
 main {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content:center;
 }
 }
