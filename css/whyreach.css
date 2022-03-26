@@ -421,7 +421,7 @@ bottom: 9em;
   bottom: 600px;
   left: 900px;
 }
-@media(max-width: 768px) {
+@media all and (max-width: 768px) {
   header {
     display: none;
     position: fixed;
