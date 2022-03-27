@@ -66,7 +66,7 @@ main{
   position: relative;
   top: 0px;
   width: 100%;
-  padding-bottom: 7em;
+  padding-bottom: 7.5em;
   background-color: rgb(255, 253, 247);
 }
 .title {
@@ -302,21 +302,22 @@ footer {
   font-size: 4rem;
 width: 100%;
 height: auto;
+padding-bottom: 0.7em;
 }
 .whyreach {
   width: 100%;
-  padding-bottom: 7em;
+  padding-bottom: 4em;
   background-color: rgb(255, 253, 247);
 }
-
+.contenedor-cartas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .hero {
-  display: inline-block;
   position: relative;
-  width: 400px;
-  max-width: 30%;
-  left: 60px;
-  bottom: -80px;
-  height: 400px;
+  width: 40%;
+  padding-bottom: 10%;
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
@@ -324,9 +325,8 @@ height: auto;
 }
 
 .hero-profile-img {
-  position: relative;
-  left: 75px;
-  height: 60%;
+  width: 80%;
+  height: 80%;
 }
 
 .hero-description-bk {
@@ -335,10 +335,10 @@ height: auto;
   position: absolute;
   top: 55%;
   right: -15px;
-  height: 65%;
+  height:0;
+  padding-bottom: 70%;
   width: 108%;
 }
-
 .second .hero-description-bk {
   background-image: linear-gradient(-20deg, #c09487, #4a4de6);
 }
@@ -349,13 +349,13 @@ height: auto;
   background-image: linear-gradient(-20deg, #8796c0, #e73adf);
 }
 .hero-logo {
-  height: 80px;
-  width: 80px;
+  height: 25%;
+  width: 17%;
   border-radius: 20px;
   background-color: black;
   position: absolute;
-  bottom: 20%;
-  left: 30px;
+  left: 8%;
+ top: 10%;
   overflow: hidden;
   box-shadow: 1px 1px 30px rgba(19, 19, 19, 0.301);
 }
@@ -365,20 +365,21 @@ height: auto;
 }
 
 .hero-description {
-  position: absolute;
   color: #fff;
   font-weight: 900;
-  left: 135px;
-  bottom: 17%;
+  font-size: 2vh;
+  text-align:justify;
+  width: 60%;
+  position: relative;
+  left: 30%;            
+  padding-top: 5%;
 }
-
-
 
 .hero-date {
   position: absolute;
-  color: #fff;
-  left: 34px;
-  bottom: 8%;
+  color:#fff;
+  left: 9%;
+  top: 45%;
 }
 /* END CARD DESIGN */
 
@@ -614,7 +615,6 @@ body {
     color: #fff;
   }
   .hero {
-    display: fixed;
     position: relative;
     width: 200px;
     left: 5px;
@@ -713,42 +713,15 @@ header img {
 width: 100%;
 height: auto;
 }
-.hero {
-  width: 300px;
-  left: 30px;
-  bottom: -50px;
-  height: 300px;
-  margin: 10px;
-}
-.hero-logo {
-  height: 60px;
-  width: 60px;
-  border-radius: 20px;
-  background-color: black;
-  position: absolute;
-  bottom: 20%;
-  left: 30px;
-  overflow: hidden;
-  box-shadow: 1px 1px 30px rgba(19, 19, 19, 0.301);
-}
-
-.hero-logo img {
-  height: 100%;
-}
 
 .hero-description {
-  position: absolute;
   color: #fff;
   font-size: 0.7rem;
   font-weight: 900;
-  left: 105px;
-  bottom: 18%;
 }
+
 .hero-date {
-  position: absolute;
   color: #fff;
-  left: 34px;
-  bottom: 8%;
   font-size: 0.9rem;
-}
+} 
 }
