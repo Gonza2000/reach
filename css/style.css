@@ -58,6 +58,16 @@ header img {
 .form, .edmodo{
  width: 100%;
 }
+.edmodo:hover{
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  transform: scale(1.1);
+ }
+ .form:hover{
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  transform: scale(1.1);
+ }
 
 main{
   width: 100%;
