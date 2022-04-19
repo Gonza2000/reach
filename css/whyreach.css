@@ -171,6 +171,11 @@ h1 {
   align-items: center;
 }
 
+.hiperlink {
+  font-size: 1em;
+  text-decoration: underline;
+}
+
 .parent {
   width: 80%;
   height: 500px;
