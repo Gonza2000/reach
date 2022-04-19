@@ -4,12 +4,15 @@
   margin: 0px;
   font-family: "Open Sans", sans-serif;
 }
-.contenedor-pagina{
-width: 100%;
+
+.contenedor-pagina {
+  width: 100%;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 li,
 a,
 ul {
@@ -21,6 +24,7 @@ ul {
   color: black;
   align-items: center;
 }
+
 header {
   display: flex;
   position: fixed;
@@ -31,16 +35,19 @@ header {
   background-color: rgb(255, 253, 247);
   z-index: 2;
 }
- nav{
-   width: 100%;
-   min-width: 80%;
- }
+
+nav {
+  width: 100%;
+  min-width: 80%;
+}
+
 .nav_links li {
   display: inline-block;
   position: relative;
   bottom: 13px;
   padding: 0px 15px 0px;
 }
+
 .nav_links li a {
   text-decoration: none;
 }
@@ -50,28 +57,34 @@ header img {
   position: relative;
   height: 50px;
 }
-.nav_links li:hover{
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  transform: scale(1.1);
-}
-.form, .edmodo{
- width: 100%;
-}
-.edmodo:hover{
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  transform: scale(1.1);
- }
- .form:hover{
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  transform: scale(1.1);
- }
 
-main{
+.nav_links li:hover {
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  transform: scale(1.1);
+}
+
+.form,
+.edmodo {
   width: 100%;
 }
+
+.edmodo:hover {
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  transform: scale(1.1);
+}
+
+.form:hover {
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  transform: scale(1.1);
+}
+
+main {
+  width: 100%;
+}
+
 .main {
   position: relative;
   top: 0px;
@@ -79,6 +92,7 @@ main{
   padding-bottom: 7.5em;
   background-color: rgb(255, 253, 247);
 }
+
 .title {
   font-size: 5em;
   color: black;
@@ -95,7 +109,9 @@ main{
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
 @-webkit-keyframes bounceIn {
+
   0%,
   20%,
   40%,
@@ -105,35 +121,43 @@ main{
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
+
   0% {
     opacity: 0;
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
   }
+
   20% {
     -webkit-transform: scale3d(1.1, 1.1, 1.1);
     transform: scale3d(1.1, 1.1, 1.1);
   }
+
   40% {
     -webkit-transform: scale3d(0.9, 0.9, 0.9);
     transform: scale3d(0.9, 0.9, 0.9);
   }
+
   60% {
     opacity: 1;
     -webkit-transform: scale3d(1.03, 1.03, 1.03);
     transform: scale3d(1.03, 1.03, 1.03);
   }
+
   80% {
     -webkit-transform: scale3d(0.97, 0.97, 0.97);
     transform: scale3d(0.97, 0.97, 0.97);
   }
+
   100% {
     opacity: 1;
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
 }
+
 @keyframes bounceIn {
+
   0%,
   20%,
   40%,
@@ -143,34 +167,41 @@ main{
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
+
   0% {
     opacity: 0;
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
   }
+
   20% {
     -webkit-transform: scale3d(1.1, 1.1, 1.1);
     transform: scale3d(1.1, 1.1, 1.1);
   }
+
   40% {
     -webkit-transform: scale3d(0.9, 0.9, 0.9);
     transform: scale3d(0.9, 0.9, 0.9);
   }
+
   60% {
     opacity: 1;
     -webkit-transform: scale3d(1.03, 1.03, 1.03);
     transform: scale3d(1.03, 1.03, 1.03);
   }
+
   80% {
     -webkit-transform: scale3d(0.97, 0.97, 0.97);
     transform: scale3d(0.97, 0.97, 0.97);
   }
+
   100% {
     opacity: 1;
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
 }
+
 .title::before {
   font-family: "Dancing Script", cursive;
   font-size: 50px;
@@ -181,6 +212,7 @@ main{
   top: 120px;
   left: 170px;
 }
+
 .title::after {
   font-size: 85px;
   content: "";
@@ -188,43 +220,52 @@ main{
   animation-duration: 2s;
   animation-iteration-count: infinite;
   position: relative;
- right: 275px;
+  right: 275px;
   top: 300px;
 }
+
 @keyframes loop {
   0% {
     content: "HOPES";
     font-weight: bolder;
   }
+
   14% {
     content: "GOALS";
     font-weight: bolder;
   }
+
   28% {
     content: "FAMILY";
     font-weight: bolder;
   }
+
   42% {
     content: "LEVEL";
     font-weight: bolder;
   }
+
   56% {
     content: "DREAMS";
     font-weight: bolder;
   }
+
   70% {
     content: "LIMITS";
     font-weight: bolder;
   }
+
   84% {
     content: "TASKS";
     font-weight: bolder;
   }
+
   100% {
     content: "HOPES";
     font-weight: bolder;
   }
 }
+
 .subtitle {
   color: black;
   font-size: 20px;
@@ -232,14 +273,15 @@ main{
   width: 500px;
   margin-left: 5%;
   margin-top: 25%;
-
 }
+
 footer {
   background: #111;
   height: auto;
   padding-top: 40px;
   color: #fff;
 }
+
 .footer-content {
   display: flex;
   align-items: center;
@@ -248,6 +290,7 @@ footer {
   text-align: center;
   width: 100%;
 }
+
 .footer-content h3 {
   font-size: 1.8rem;
   font-weight: 400;
@@ -256,6 +299,7 @@ footer {
   position: relative;
   left: 10px;
 }
+
 .footer-content p {
   max-width: 500px;
   margin: 10px auto;
@@ -264,6 +308,7 @@ footer {
   position: relative;
   left: 10px;
 }
+
 .social {
   list-style: none;
   display: flex;
@@ -271,59 +316,75 @@ footer {
   justify-content: center;
   margin: 1rem 0rem 3rem 0rem;
 }
+
 .social a {
   text-decoration: none;
   color: #fff;
 }
+
 .social a i {
   font-size: 2.1rem;
   transition: color 0.4s ease;
 }
+
 .social li {
   padding-left: 40px;
 }
+
 .social a:hover i {
   color: rgba(31, 104, 224, 1);
 }
+
 .footer-bottom {
   background: #111;
   padding: 20px 0px;
   text-align: center;
 }
+
 .ecuador {
   width: 25px;
   position: relative;
   top: 5px;
   right: 10px;
 }
+
 .footer-bottom p {
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
 }
+
+.ubicacion {
+  width: 90%;
+}
+
 .boy-student {
   position: relative;
   height: 10px;
   bottom: 100px;
   left: 700px;
 }
-.certifications{
+
+.certifications {
   text-align: center;
   font-size: 4rem;
-width: 100%;
-height: auto;
-padding-bottom: 0.7em;
+  width: 100%;
+  height: auto;
+  padding-bottom: 0.7em;
 }
+
 .whyreach {
   width: 100%;
   padding-bottom: 4em;
   background-color: rgb(255, 253, 247);
 }
-.contenedor-cartas{
+
+.contenedor-cartas {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .hero {
   position: relative;
   width: 40%;
@@ -346,19 +407,23 @@ padding-bottom: 0.7em;
   position: absolute;
   top: 55%;
   right: -15px;
-  height:0;
+  height: 0;
   padding-bottom: 70%;
   width: 108%;
 }
+
 .second .hero-description-bk {
   background-image: linear-gradient(-20deg, #c09487, #4a4de6);
 }
+
 .third .hero-description-bk {
   background-image: linear-gradient(-20deg, #f7dbdb, #84d32a);
 }
+
 .forth .hero-description-bk {
   background-image: linear-gradient(-20deg, #8796c0, #e73adf);
 }
+
 .hero-logo {
   height: 25%;
   width: 17%;
@@ -366,7 +431,7 @@ padding-bottom: 0.7em;
   background-color: black;
   position: absolute;
   left: 8%;
- top: 10%;
+  top: 10%;
   overflow: hidden;
   box-shadow: 1px 1px 30px rgba(19, 19, 19, 0.301);
 }
@@ -379,19 +444,20 @@ padding-bottom: 0.7em;
   color: #fff;
   font-weight: 900;
   font-size: 2vh;
-  text-align:justify;
+  text-align: justify;
   width: 60%;
   position: relative;
-  left: 30%;            
+  left: 30%;
   padding-top: 5%;
 }
 
 .hero-date {
   position: absolute;
-  color:#fff;
+  color: #fff;
   left: 9%;
   top: 45%;
 }
+
 /* END CARD DESIGN */
 
 body {
@@ -400,6 +466,7 @@ body {
   background-color: #eee;
   min-height: 100vh;
 }
+
 .btn i:before {
   width: 14px;
   height: 14px;
@@ -411,6 +478,7 @@ body {
   top: 5px;
   right: 5px;
 }
+
 .cuadrado__grande {
   display: flex;
   align-items: flex-end;
@@ -418,28 +486,31 @@ body {
   position: absolute;
   margin-left: 50%;
   margin-top: 5%;
- width: 45%;
- padding-bottom: 37%;
+  width: 45%;
+  padding-bottom: 37%;
   max-width: 45%;
   height: 0;
   background-color: rgb(255, 90, 61);
   box-shadow: 5px 5px 10px rgba(190, 177, 177, 0.7);
 }
+
 .cuadrado__mediano--amarillo {
   width: 50%;
   height: 0;
   padding-bottom: 43%;
   background-color: rgb(252, 203, 40);
 }
+
 .cuadrado__mediano--azul {
   width: 50%;
   height: 0;
   padding-bottom: 39.3%;
   background-color: rgb(126, 121, 252);
 }
+
 .student {
   position: absolute;
-  left:10%;
+  left: 10%;
   bottom: 0%;
   width: 100%;
   height: auto;
@@ -451,39 +522,109 @@ body {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
+
   100% {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
   }
 }
+
 @keyframes fadeInDown {
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
+
   100% {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
   }
 }
-.toggle{
-  color:black;
-  background:none;
+
+.toggle {
+  color: black;
+  background: none;
   border: none;
   font-size: 30px;
   padding: 0 20px;
   line-height: 60px;
-  display:none;
+  display: none;
 }
+
+@media(max-width: 1170px) {
+  .title {
+    font-size: 3em;
+    color: black;
+    padding-top: 8%;
+    padding-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+  }
+
+  .title::before {
+    font-size: 0.9em;
+    position: relative;
+    top: 114px;
+    left: 115px;
+  }
+
+  .title::after {
+    font-size: 1em;
+    right: 160px;
+    top: 250px;
+  }
+
+  .subtitle {
+    color: black;
+    font-size: 0.9em;
+    font-weight: 300;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 27%;
+  }
+
+  li,
+  a,
+  ul {
+    z-index: 1;
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  header img {
+    height: 40px;
+  }
+
+  .certifications {
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-description {
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+
+  .hero-date {
+    color: #fff;
+    font-size: 0.9rem;
+  }
+}
+
+
 @media(max-width: 768px) {
   header {
     display: none;
@@ -491,159 +632,180 @@ body {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding:0;
+    padding: 0;
     background-color: rgb(255, 253, 247);
     z-index: 2;
   }
-   
+
+  .contenedor-cartas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .nav_links li {
     display: inline-block;
     position: relative;
     bottom: 13px;
     padding: 0px 15px 0px;
   }
+
   .nav_links li a {
     text-decoration: none;
   }
-  
+
   header img {
     top: 15px;
     position: relative;
     height: 50px;
   }
-  .nav_links li:hover{
+
+  .nav_links li:hover {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     transform: scale(1.1);
   }
-  .form{
-    padding-left: 30em;
-  }
-  .edmodo{
-    padding-right: 3em;
-  }
+
 
   .title {
     font-size: 60px;
     color: black;
     position: absolute;
-    left: 10px;
     top: 100px;
+    left: unset;
+    right: unset;
     width: 100px;
+    padding-left: unset;
+    margin-right: unset;
   }
+
+
   .title::before {
     font-family: "Dancing Script", cursive;
     font-size: 50px;
     font-weight: 300;
     content: "your";
     color: black;
-    position: relative;
-    top: 125px;
-    left: 145px;
+    position: absolute;
+    top: unset;
+    left: 100%;
+    transform: translate(-50%, 200%);
   }
+
   .title::after {
-    font-size:60px;
+    font-size: 60px;
     content: "";
-    position: relative;
-    right: 195px;
-    top: 290px;
+    position: absolute;
+    top: unset;
+    transform: translate(2%, 200%);
+    right: unset;
     animation-name: loop;
     animation-duration: 2s;
     animation-iteration-count: infinite;
   }
+
   .subtitle {
     color: black;
     font-size: 15px;
     font-weight: 300;
+    width: 70%;
     position: absolute;
-    width: 500px;
     top: 550px;
-    left: 20px;
   }
+
+
+
   .cuadrado__grande {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     position: absolute;
-    left: 50px;
-    top: 600px;
-    width: 300px;
-    height: 300px;
+    width: 40%;
+    padding-bottom: 37%;
+    min-width: 45%;
     background-color: rgb(255, 90, 61);
     box-shadow: 5px 5px 10px rgba(190, 177, 177, 0.7);
+    margin-left: unset;
   }
+
   .cuadrado__mediano--amarillo {
-    width:135px;
-    height: 200px;
+    width: 50%;
+    height: 0;
+    padding-bottom: 43%;
     background-color: rgb(252, 203, 40);
   }
+
   .cuadrado__mediano--azul {
-    width: 135px;
-    height: 200px;
+    width: 50%;
+    height: 0;
+    padding-bottom: 39.3%;
     background-color: rgb(126, 121, 252);
   }
+
   .student {
     position: absolute;
-    left: 70px;
-    top: 659px;
-    width: 300px;
-    height: 240px;
+    width: 100%;
+    height: 100%;
     z-index: 1;
   }
-  .certifications{
+
+  .certifications {
     text-align: center;
-    font-size: 3.1rem;
-  width: 100%;
-  height: auto;
-  padding-top: 1em;
+    font-size: 2.5rem;
+    width: 100%;
+    height: auto;
+    padding-top: 1em;
   }
+
   .main {
+    align-items: center;
     position: relative;
+    display: flex;
+    flex-direction: column-reverse;
     top: 0px;
     width: 100%;
-    height: 800px;
+    height: 1000px;
     min-height: 800px;
     background-color: rgb(255, 253, 247);
     overflow: hidden;
   }
-  .main {
-    position:relative;
-    top: 0px;
-    width: auto;
-    height: 900px;
-    background-color: rgb(255, 253, 247);
-  }
+
+
   .whyreach {
     width: 100%;
     height: auto;
     background-color: rgb(255, 253, 247);
     padding-bottom: 3em;
   }
+
   footer {
     background: #111;
     height: 400px;
     padding-top: 40px;
     color: #fff;
   }
+
   .hero {
     position: relative;
-    width: 200px;
-    left: 5px;
+    width: 80%;
+    max-width: 350px;
+    padding-bottom: 15%;
     bottom: -20px;
-    min-width: 350px;
-    height: 300px;
     border-radius: 30px;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
     margin: 20px;
   }
+
   .hero-description {
     position: absolute;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: #fff;
     font-weight: 900;
-    left: 135px;
-    bottom: 10%;
+    left: 30%;
+    bottom: 70%;
   }
+
   .hero-date {
     position: absolute;
     color: #fff;
@@ -651,6 +813,7 @@ body {
     bottom: 6%;
     font-size: 0.8rem;
   }
+
   .social {
     list-style: none;
     display: flex;
@@ -660,6 +823,7 @@ body {
     justify-content: center;
     margin: 1rem 0rem 3rem 0rem;
   }
+
   .footer-content h3 {
     font-size: 1.8rem;
     font-weight: 400;
@@ -668,71 +832,17 @@ body {
     position: relative;
     left: 0;
   }
+
   .hero-logo {
-    height: 80px;
-    width: 80px;
+    height: 55px;
+    width: 55px;
     border-radius: 20px;
     background-color: black;
     position: absolute;
-    bottom: 14%;
-    left: 30px;
+    bottom: 15%;
+    left: 7%;
     overflow: hidden;
     box-shadow: 1px 1px 30px rgba(19, 19, 19, 0.301);
   }
-}
-@media(max-width: 1170px) {
-  .title {
-    font-size: 3em;
-    color: black;
-    padding-top: 8%;
-    padding-left: 5%;
-    margin-right: 5%;
-    width: 100%;
-}
-.title::before {
-  font-size: 0.9em;
-  position: relative;
-  top: 114px;
-  left: 115px;
-}
-.title::after {
-  font-size: 1em;
- right: 160px;
-  top: 250px;
-}
-.subtitle {
-  color: black;
-  font-size: 0.9em;
-  font-weight: 300;
-  width: 40%;
-  margin-left: 5%;
- margin-top: 27%;
-}
-li,
-a,
-ul {
-  z-index: 1;
-  font-weight: 300;
-  font-size: 15px;
-}
-header img {
-  height: 40px;
-}
-.certifications{
-  text-align: center;
-  font-size: 3rem;
-width: 100%;
-height: auto;
-}
 
-.hero-description {
-  color: #fff;
-  font-size: 0.7rem;
-  font-weight: 900;
-}
-
-.hero-date {
-  color: #fff;
-  font-size: 0.9rem;
-} 
 }
