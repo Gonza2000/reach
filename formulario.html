@@ -10,6 +10,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <script defer src="index.js"></script>
+  <script src="https://kit.fontawesome.com/a6b0d8d774.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/formulario.css">
 
   <title>Sign Up</title>
@@ -18,19 +20,22 @@
 <body>
   <header>
     <nav>
-      <ul class="nav_links">
-        <li> <a href="index.html"> <img class="logo-principal" src="img/1.png" alt="Logo"></a> </li>
-        <li> <a href="index.html#why-reach">Services</a></li>
+      <a href="index.html"> <img class="logo-principal" src="img/1.png" alt="Logo"></a>
+      <button class="toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav_links ">
+        <li> <a href="#why-reach">Services</a></li>
         <li> <a href="whyreach.html">Why Reach</a></li>
         <li> <a href="#Contact-us">Contact Us</a></li>
+        <li class="form"> <a href="formulario.html">Start Now!</a></li>
+        <li class="edmodo"> <a
+            href="https://new.edmodo.com/country-picker?utm_source=main&utm_campaign=onb-user-type-page&utm_medium=visitor-site&utm_content=main-cta-btn&go2signupUrl=%2Fstudent-signup">My
+            Classes</a></li>
       </ul>
-
     </nav>
-    <a class="form" href="formulario.html">Start Now!</a>
-    <a class="edmodo"
-      href="https://new.edmodo.com/country-picker?utm_source=main&utm_campaign=onb-user-type-page&utm_medium=visitor-site&utm_content=main-cta-btn&go2signupUrl=%2Fstudent-signup">My
-      Classes</a>
   </header>
+
   <main>
     <section class="contact-us">
       <form id="form" class="form-register" action="https://formsubmit.co/gonza.card2000@hotmail.com" method="POST">
@@ -57,7 +62,7 @@
       <h3>Reach your Goals</h3>
       <p> <img class="ecuador" src="img/ecuador.svg" alt="Ecuador">Contact Us:</p>
       <p>02 3519938 / 0995094687</p>
-      <p>Charles Darwin 378 y Cesar Endara - La Armenia, Conocoto - Quito, Ecuador.</p>
+      <p class="ubicacion">Charles Darwin 378 y Cesar Endara - La Armenia, Conocoto - Quito, Ecuador.</p>
       <ul class="social">
         <li><a
             href="https://www.facebook.com/REACH-Resources-for-Educational-and-Academic-Challenges-105985332094239/"><i
