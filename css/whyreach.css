@@ -545,6 +545,11 @@ footer {
     z-index: 2;
   }
 
+  .contlink {
+    padding-top: 42px;
+    float: none;
+  }
+
   .toggle {
     color: black;
     background: none;

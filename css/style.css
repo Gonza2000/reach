@@ -642,6 +642,11 @@ body {
     z-index: 2;
   }
 
+  .contlink {
+    padding-top: 42px;
+    float: none;
+  }
+
   .contenedor-cartas {
     display: flex;
     justify-content: center;
