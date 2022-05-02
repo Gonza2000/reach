@@ -42,6 +42,15 @@ nav {
 }
 
 
+.contlink {
+  position: relative;
+  float: right;
+  width: auto;
+}
+
+.nav_links {
+  width: 100%;
+}
 
 .nav_links li {
   display: inline-block;
